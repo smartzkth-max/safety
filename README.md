@@ -2,25 +2,28 @@
 
 Construction safety awareness quiz app for toolbox meetings.
 
-## Local development
+## Included
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
+- Worker mode and organizer mode
+- Multilingual quiz: English, Chinese, Tamil, Bengali
+- Session ID workflow
+- QR code generation
+- Google Sheets backend via Apps Script
+- Organizer leaderboard
+- CSV export
 
 ## Published URL
 
-After GitHub Pages deployment, the app URL should be:
+After GitHub Pages deployment:
 
 ```text
 https://smartzkth-max.github.io/safety/
 ```
 
-Use that URL inside the app's **Published app URL** field before generating QR codes.
+## Backend setup
+
+See:
+
+```text
+GOOGLE_SHEETS_SETUP.md
+```
