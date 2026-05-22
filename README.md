@@ -2,33 +2,18 @@
 
 Construction safety awareness quiz app for toolbox meetings.
 
-## Included
+## Ranking rule
 
-- Worker mode and organizer mode
-- Multilingual quiz: English, Chinese, Tamil, Bengali, Burmese (Myanmar)
-- Session ID workflow
-- QR code generation
-- Google Sheets backend via Apps Script
-- Organizer leaderboard
-- CSV export
+Workers are ranked by:
 
-## Published URL
+1. Correct answer score, highest first
+2. Time taken, shortest first
+3. Submitted time, earliest first
 
-After GitHub Pages deployment:
+## Backend
+
+Google Sheets backend via Apps Script is included in:
 
 ```text
-https://smartzkth-max.github.io/safety/
+google-apps-script/Code.gs
 ```
-
-## Backend setup
-
-See:
-
-```text
-GOOGLE_SHEETS_SETUP.md
-```
-
-
-## Update note
-
-This version adds Burmese (Myanmar) language support and removes the Age field from the worker form. If your existing Google Sheet has an Age column from the previous version, it can remain there; new submissions will leave it blank.
